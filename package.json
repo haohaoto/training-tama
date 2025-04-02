@@ -1,28 +1,18 @@
 {
-  "name": "treaning-log-api",
+  "name": "services",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "module",
-    "url": "git+https://github.com/haohaoto/treaning-tama.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/haohaoto/treaning-tama/issues"
-  },
-  "homepage": "https://github.com/haohaoto/treaning-tama#readme",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "firebase": "^11.5.0",
-    "firebase-admin": "^13.2.0",
-    "serverless-http": "^3.2.0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
-  "type": "module"  
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.2.0"
+  }
 }
